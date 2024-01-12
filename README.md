@@ -1,8 +1,6 @@
 # little_lemon
 Cousera final Backend Capstone Project 
-Certainly! Below is a template for a `README.md` file for a restaurant website named Little Lemon built using Django. Please customize it based on your specific project details:
 
-```markdown
 # Little Lemon Restaurant Website
 
 Welcome to the Little Lemon restaurant website, a delightful place to showcase our menu, attract customers, and manage orders seamlessly.
