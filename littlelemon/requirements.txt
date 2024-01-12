@@ -1,0 +1,7 @@
+django = "*"
+django-rest-framework = "*"
+djoser = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+djangorestframework-xml = "*"
+django-filter = "*"
