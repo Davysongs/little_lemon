@@ -25,6 +25,7 @@ router.register(r'tables', views.BookingViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.home, name= "home"),
     path('restaurant/', include('restaurant.urls')),
     path('restaurant/booking/', include(router.urls)),
     path('users', UserViewSet.as_view({'post': 'create'}), name="register"),

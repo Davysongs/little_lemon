@@ -15,8 +15,10 @@ from rest_framework.viewsets import ModelViewSet
 # Create your views here.
 def index(request):
     return render(request, 'index.html', {})
+def home(request):
+    return render (request, "base.html")
 
-"""
+
 @api_view(["POST","GET"])
 def test(request):
     return Response("test end point", status=status.HTTP_200_OK)
@@ -62,15 +64,6 @@ class MenuItemView(APIView):
         return Response({'Message': "Access denied"}, status=status.HTTP_403_FORBIDDEN)
     def put(self, request):
         return Response({'Message': "Access denied"}, status=status.HTTP_403_FORBIDDEN)
-"""
-
-class MenuItemView(ListCreateAPIView):
-    queryset = Menu.objects.all()
-    serializer_class = MenuItemSerializer
-
-class SingleMenuItemView(RetrieveUpdateAPIView, DestroyAPIView):
-    queryset = Menu.objects.all()
-    serializer_class = MenuItemSerializer
 
 class BookingViewSet(ModelViewSet):
     queryset = Booking.objects.all()
