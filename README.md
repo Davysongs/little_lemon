@@ -32,25 +32,27 @@ To set up the Little Lemon website locally, follow these steps:
 
 3. **Install Dependencies:**
    ```bash
-   pipenv install -r requirements.txt
+   pip install -r requirements.txt
    ```
+4. **Setup Database:**
+Create a new MySQL database named `little`. Then, run migrations 
 
-4. **Apply Migrations:**
+5. **Apply Migrations:**
    ```bash
    python manage.py migrate
    ```
 
-5. **Create a Superuser (Admin Account):**
+6. **Create a Superuser (Admin Account):**
    ```bash
    python manage.py createsuperuser
    ```
 
-6. **Run the Development Server:**
+7. **Run the Development Server:**
    ```bash
    python manage.py runserver
    ```
 
-7. **Access the Website:**
+8. **Access the Website:**
    Open your web browser and go to [http://localhost:8000/](http://localhost:8000/)
 
 ## Project Structure
