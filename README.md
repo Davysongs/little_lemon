@@ -63,6 +63,17 @@ Create a new MySQL database named `little`. Then, run migrations
 - **templates/:** HTML templates for rendering views.
 - **static/:** Static files (CSS, JavaScript, images, etc.).
 
+## URL Paths:
+admin/
+''/
+restaurant/
+restaurant/booking/
+users [name='register']
+users/users/me [name='user-view']
+auth/
+auth/
+
+
 ## Technologies Used
 
 - **Django:** Python web framework for building robust web applications.
