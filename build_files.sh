@@ -2,7 +2,7 @@
 
 # Install Python
 # Check if Python is installed
-if ! command -v python3 &> /dev/null; then
+if ! command -v python3.9 &> /dev/null; then
     echo "Python not found, installing..."
     # Install Python using a different method, such as pyenv or directly downloading
     # For example, if using pyenv:

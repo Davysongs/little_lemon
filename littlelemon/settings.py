@@ -76,9 +76,6 @@ DATABASES = {
         'PASSWORD': 'laLisRDLPwQpeYTYKwrGzNneTnMvjOqb',
         'HOST': 'viaduct.proxy.rlwy.net',
         'PORT': '27698',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-        }
     }
 }
 
