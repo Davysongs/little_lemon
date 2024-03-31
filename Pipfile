@@ -11,6 +11,7 @@ mysqlclient = "*"
 djangorestframework = "*"
 djangorestframework-xml = "*"
 django-filter = "*"
+wheel = "*"
 
 [dev-packages]
 
