@@ -31,6 +31,7 @@ fi
 pip3 install -r requirements.txt
 
 # Run the Django migrations or any other setup commands
+python3 manage.py migrate
 # Additional setup commands if needed
 
 # Build your Django app or collect static files
