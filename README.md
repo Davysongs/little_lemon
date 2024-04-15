@@ -1,5 +1,7 @@
 # little_lemon
-Cousera final Backend Capstone Project 
+Cousera final Backend Capstone Project
+![davysongs pythonanywhere com_](https://github.com/Davysongs/little_lemon/assets/96971058/85a07f5f-b32d-4abf-8017-34b75ffcd799)
+**PREVIEW**
 
 # Little Lemon Restaurant Website
 
